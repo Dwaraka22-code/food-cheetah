@@ -1,10 +1,10 @@
 // const CORSPROXY = 'https://proxy.cors.sh/';
 
 export const LOCATION_API =
-  'https://thingproxy.freeboard.io/fetch/https://www.swiggy.com/dapi/misc/place-autocomplete?input=';
+  'https://www.swiggy.com/dapi/misc/place-autocomplete?input=';
 
 export const ADDRESS_API =
-  'https://thingproxy.freeboard.io/fetch/https://www.swiggy.com/dapi/misc/address-recommend?place_id=';
+  'https://www.swiggy.com/dapi/misc/address-recommend?place_id=';
 
 export const IMG_CAROUSEL =
   'https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_850,h_504/';
@@ -19,7 +19,7 @@ export const GRAY_RES_IMG =
   'https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660,e_grayscale/';
 
 export const MENU_API =
-  'https://thingproxy.freeboard.io/fetch/https://www.swiggy.com/dapi/menu/pl?page-type=REGULAR_MENU&complete-menu=true&lat=22.9747271&lng=88.43372099999999&restaurantId=';
+  'https://www.swiggy.com/dapi/menu/pl?page-type=REGULAR_MENU&complete-menu=true&lat=22.9747271&lng=88.43372099999999&restaurantId=';
 
 export const MENU_IMG =
   'https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/';
