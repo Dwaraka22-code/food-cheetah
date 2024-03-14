@@ -112,7 +112,7 @@ const Home = () => {
       <div className="container min-h-screen pt-24 pb-32 md:mx-auto md:w-3/4">
         {FilteredRestaurants && AllRestaurants ? (
           <>
-            {BannerInfo && (
+            {/* {BannerInfo && (
               <div className="relative hidden md:block">
                 <h2 className="pt-5 pb-5 text-xl font-GrotBlack sm:text-2xl">
                   Best offers for you
@@ -178,7 +178,7 @@ const Home = () => {
                   </div>
                 </div>
               </div>
-            )}
+            )} */}
 
             {FoodCategories && (
               <div className="relative hidden md:block">
