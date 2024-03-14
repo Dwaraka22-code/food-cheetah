@@ -5,7 +5,7 @@ import RestaurantCard, {
 import { Link } from 'react-router-dom';
 import ShimmerUi from '../components/ShimmerUi';
 import useRestaurant from '../hooks/useRestaurant';
-import { CATEGORY_IMG } from '../utils/constants';
+import { CATEGORY_IMG, IMG_CAROUSEL } from '../utils/constants';
 import { useSelector } from 'react-redux';
 import Modal from '../components/Modal';
 
@@ -13,11 +13,15 @@ const Home = () => {
   const [
     AllRestaurants,
     FilteredRestaurants,
-
+    // eslint-disable-next-line no-unused-vars
+    setAllRestaurants,
     setFilteredRestaurants,
-    //BannerInfo,
-
+    BannerInfo,
+    // eslint-disable-next-line no-unused-vars
+    setBannerInfo,
     FoodCategories,
+    // eslint-disable-next-line no-unused-vars
+    setFoodCategories,
   ] = useRestaurant();
   const [SearchText, setSearchText] = useState('');
   const [ErrorMessage, setErrorMessage] = useState('');
@@ -79,7 +83,7 @@ const Home = () => {
     setFilteredRestaurants(filterPrice);
   };
 
-  /* const handleScrollBannerLeft = () => {
+  const handleScrollBannerLeft = () => {
     const bannerCategory = document.querySelector('.bannerCategory');
     bannerCategory.scrollLeft = bannerCategory.scrollLeft - 250;
   };
@@ -87,7 +91,7 @@ const Home = () => {
   const handleScrollBannerRight = () => {
     const bannerCategory = document.querySelector('.bannerCategory');
     bannerCategory.scrollLeft = bannerCategory.scrollLeft + 250;
-  }; */
+  };
 
   const handleScrollLeft = () => {
     const foodCategory = document.querySelector('.foodCategory');
@@ -112,7 +116,7 @@ const Home = () => {
       <div className="container min-h-screen pt-24 pb-32 md:mx-auto md:w-3/4">
         {FilteredRestaurants && AllRestaurants ? (
           <>
-            {/* {BannerInfo && (
+            {BannerInfo && (
               <div className="relative hidden md:block">
                 <h2 className="pt-5 pb-5 text-xl font-GrotBlack sm:text-2xl">
                   Best offers for you
@@ -178,7 +182,7 @@ const Home = () => {
                   </div>
                 </div>
               </div>
-            )} */}
+            )}
 
             {FoodCategories && (
               <div className="relative hidden md:block">
