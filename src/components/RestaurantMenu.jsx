@@ -10,7 +10,14 @@ import Modal from './Modal';
 
 const RestaurantMenu = () => {
   const { resId } = useParams();
-  const [ResInfo, ResMenuInfo] = useRestaurantMenu(resId, MENU_API);
+  const [
+    ResInfo,
+    // eslint-disable-next-line no-unused-vars
+    setResInfo,
+    ResMenuInfo,
+    // eslint-disable-next-line no-unused-vars
+    setResMenuInfo,
+  ] = useRestaurantMenu(resId, MENU_API);
   const [ShowIndex, setShowIndex] = useState(0);
   const ModalOpen = useSelector((store) => store.toggleData.isModalOpen);
 
