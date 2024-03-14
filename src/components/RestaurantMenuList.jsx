@@ -1,4 +1,4 @@
-import { useDispatch, useSelector } from 'react-redux';
+import { useDispatch } from 'react-redux';
 import { MENU_IMG } from '../utils/constants';
 import { addItem } from '../utils/cartSlice';
 import toast, { Toaster } from 'react-hot-toast';

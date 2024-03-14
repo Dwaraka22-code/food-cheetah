@@ -10,6 +10,7 @@ const useRestaurant = () => {
 
   useEffect(() => {
     fetchRestaurants();
+    // eslint-disable-next-line
   }, []);
 
   const fetchRestaurants = async () => {

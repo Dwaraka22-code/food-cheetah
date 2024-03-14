@@ -35,7 +35,7 @@ const Header = () => {
             </Link>
             <Link
               to="/"
-              className="hidden ml-4 text-lg text-red-600 text-black uppercase cursor-pointer font-ProximaNovaBold xl:block"
+              className="hidden ml-4 text-lg text-red-600 uppercase cursor-pointer font-ProximaNovaBold xl:block"
             >
               Food Cheetah
             </Link>
