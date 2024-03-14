@@ -13,12 +13,11 @@ const Home = () => {
   const [
     AllRestaurants,
     FilteredRestaurants,
-    setAllRestaurants,
+
     setFilteredRestaurants,
     BannerInfo,
-    setBannerInfo,
+
     FoodCategories,
-    setFoodCategories,
   ] = useRestaurant();
   const [SearchText, setSearchText] = useState('');
   const [ErrorMessage, setErrorMessage] = useState('');
