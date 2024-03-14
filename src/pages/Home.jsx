@@ -5,7 +5,7 @@ import RestaurantCard, {
 import { Link } from 'react-router-dom';
 import ShimmerUi from '../components/ShimmerUi';
 import useRestaurant from '../hooks/useRestaurant';
-import { CATEGORY_IMG, IMG_CAROUSEL } from '../utils/constants';
+import { CATEGORY_IMG } from '../utils/constants';
 import { useSelector } from 'react-redux';
 import Modal from '../components/Modal';
 
@@ -15,7 +15,7 @@ const Home = () => {
     FilteredRestaurants,
 
     setFilteredRestaurants,
-    BannerInfo,
+    //BannerInfo,
 
     FoodCategories,
   ] = useRestaurant();
@@ -79,7 +79,7 @@ const Home = () => {
     setFilteredRestaurants(filterPrice);
   };
 
-  const handleScrollBannerLeft = () => {
+  /* const handleScrollBannerLeft = () => {
     const bannerCategory = document.querySelector('.bannerCategory');
     bannerCategory.scrollLeft = bannerCategory.scrollLeft - 250;
   };
@@ -87,7 +87,7 @@ const Home = () => {
   const handleScrollBannerRight = () => {
     const bannerCategory = document.querySelector('.bannerCategory');
     bannerCategory.scrollLeft = bannerCategory.scrollLeft + 250;
-  };
+  }; */
 
   const handleScrollLeft = () => {
     const foodCategory = document.querySelector('.foodCategory');
