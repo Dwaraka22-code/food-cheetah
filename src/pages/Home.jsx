@@ -5,7 +5,7 @@ import RestaurantCard, {
 import { Link } from 'react-router-dom';
 import ShimmerUi from '../components/ShimmerUi';
 import useRestaurant from '../hooks/useRestaurant';
-import { CATEGORY_IMG } from '../utils/constants';
+import { CATEGORY_IMG, IMG_CAROUSEL } from '../utils/constants';
 import { useSelector } from 'react-redux';
 import Modal from '../components/Modal';
 
@@ -13,9 +13,12 @@ const Home = () => {
   const [
     AllRestaurants,
     FilteredRestaurants,
+    setAllRestaurants,
     setFilteredRestaurants,
     BannerInfo,
+    setBannerInfo,
     FoodCategories,
+    setFoodCategories,
   ] = useRestaurant();
   const [SearchText, setSearchText] = useState('');
   const [ErrorMessage, setErrorMessage] = useState('');
@@ -161,7 +164,7 @@ const Home = () => {
 
                 <div className="bannerCategory overflow-x-scroll overflow-y-hidden scroll-smooth scrollbar-hide 2xl:max-w-[1500px]">
                   <div className="flex px-3 md:gap-6 md:px-0">
-                    {/* {BannerInfo &&
+                    {BannerInfo &&
                       BannerInfo.map((imgCard) => (
                         <div key={imgCard.id} className="cursor-pointer">
                           <div className="w-[350px]">
@@ -172,7 +175,7 @@ const Home = () => {
                             />
                           </div>
                         </div>
-                      ))} */}
+                      ))}
                   </div>
                 </div>
               </div>
