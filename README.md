@@ -1,70 +1,34 @@
-# Getting Started with Create React App
+<!-- PROJECT DESCRIPTION -->
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Food Cheetah
 
-## Available Scripts
+## Food Cheetah A Food Ordering Website
 
-In the project directory, you can run:
+> Food Cheetah, a React.js-based food ordering website, seamlessly connects users with their favorite dishes through the live Swiggy API. With Redux for state management, React Router DOM for smooth navigation, and Tailwind CSS for a visually appealing interface, it offers a modern and efficient way to explore, order, and enjoy a diverse range of culinary delights.
 
-### `npm start`
+## 🛠 Built With
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+### Tech Stack
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- **React.js**
+- **Tailwind-CSS**
+- **React-Router-Dom**
+- **Redux.js**
 
-### `npm test`
+<!-- Features -->
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### 🎯 Key Features <a name="key-features"></a>
 
-### `npm run build`
+> ✅ Dynamic Content: Food Cheetah provides an excellent user experience by dynamically updating the content on the page and offering real-time information on restaurants, banners, offers, menus and availability to keep the users all engaged with the latest offers.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+> ✅ Seamless Navigation: With React Router DOM, the app provides a smooth navigation experience, enabling users to effortlessly explore different sections, from discovering restaurants to adding to cart, without disruptions.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+> ✅ Swiggy Live APIs Integration for generating data about restaurants: Leveraging live Swiggy APIs, Food Cheetah delivers up-to-the-minute data on restaurants, empowering users with accurate and reliable information.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+> ✅ State Management with Redux: Food Cheetah ensures a scalable and organized application state with Redux, streamlining data flow and providing a centralized management system for a seamless user experience. From adding Item to the cart to removing them, the experience is smooth.
 
-### `npm run eject`
+> ✅ Lazy Loading & Code Splitting: The application optimizes performance by employing lazy loading and code splitting techniques, ensuring that only necessary components are loaded, thereby reducing initial page load times and improving overall responsiveness.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+> ✅ Custom Hook: Food Cheetah utilizes custom hooks, enhancing code reusability and maintainability, allowing for a more efficient development process and a streamlined architecture.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+> ✅ Shimmer UI: Food Cheetah enhances user interface transitions with shimmer UI, providing a visually appealing loading effect during data retrieval, creating a polished and engaging experience for users while waiting for content to load.
